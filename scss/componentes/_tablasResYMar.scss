@@ -1,0 +1,28 @@
+.tablamaridaje{
+    background-color: map-get($tablaRyM, backcol );
+    font-size: map-get($tablaRyM , fonts );
+    font-family: map-get($tablaRyM, fontf );
+    text-align: center;
+    color: map-get($tablaRyM, colorletra);
+    padding: map-get($tablaRyM, pdd );
+    height: map-get($tablaRyM, alto );
+    border: map-get($tablaRyM, br );
+    border-collapse: collapse;
+}
+.maridaje{
+width: 1200px;
+}
+.rese{
+    background-color: map-get($tablaRyM, backcol );
+    color: map-get($tablaRyM, colorletra);
+    font-family: map-get($tablaRyM, fontf );
+    height: 600px;
+    overflow: scroll;
+    padding: 15px;
+    margin-bottom: 10px;
+    img{
+        height: 380px;
+        width: auto;
+        margin-top: 5px;
+    }
+}
